@@ -1,12 +1,12 @@
 <b><h1>Configure router and send a ping message:</h1></b><br>
 
 <b><i>Procedure:</i></b>
-<ul>
+<ol>
 <li>Router is connected with copper cross wireto two end-devices.</li>
 <li>IP address and default gateway addresses are configured for each device.</li>
 <li>Router's configuration terminal is accessed and connection between devices and router is established through the gateway addresses using Command Line Interface.</li>
 <li>Using terminals on computer we can ping other PCs using IP address.</li>
-</ul><br>
+</ol><br>
 
 <b><i>Learning outcomes:</i></b>
 
