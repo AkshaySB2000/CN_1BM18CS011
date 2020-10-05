@@ -13,7 +13,7 @@
 <li>Pinging the second computer i.e, PC1 from PC0 initially gives an error stating <i>destination host unreachable</i> because there is no direct connection between source (PC0) and destination (PC1).</li>
 <li>The ip route of the routers can be seen using <i>show ip route</i> command for each router.</li>
 <li>In order to send ping message to PC1 via router0, router1, we need to add static routes to routers.This can be done using the following syntax:<br>
-<i>ip route <dest_network> <subnet_mask> <next_hop></i> in configure mode.<br><br>
+<i>ip route dest_network subnet_mask next_hop</i> in configure mode.<br><br>
 <ul>
 <li>For router0:<br>
 Route through 10.0.0.0 and 20.0.0.0 is directly connected. Therefore we add static route through 30.0.0.0 and 40.0.0.0.<br>
