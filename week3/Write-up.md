@@ -26,7 +26,7 @@ Router(config)#ip route 40.0.0.0 255.0.0.0 30.0.0.2</i></li>
 <li>For router2:<br>
 Route through 30.0.0.0 and 40.0.0.0 is directly connected. Therefore we add static route through 10.0.0.0 and 20.0.0.0.<br>
 <i>Router(config)#ip route 10.0.0.0 255.0.0.0 30.0.0.1<br>
-Router(config)#ip route 20.0.0.0 255.0.0.0 30.0.0.1</i></li>
+Router(config)#ip route 20.0.0.0 255.0.0.0 30.0.0.1</i><br></li>
 </ul>
 </li>
 <li>After adding static routes to routers, a connection is established between each interface and pinging PC1 from PC0 works as per the requirement.</li>
