@@ -1,4 +1,4 @@
-<b><h1>Configure DHCP in a Local Area Network:</h1></b><br>
+<b><h1>Configure Web server and DNS:</h1></b><br>
 
 <b><i>Procedure:</i></b>
 <ol>
